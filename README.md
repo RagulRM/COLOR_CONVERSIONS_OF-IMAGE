@@ -55,7 +55,8 @@ cv2.destroyAllWindows()
 
 
 
-![image](https://github.com/ShanmathiShanmugam/COLOR_CONVERSIONS_OF-IMAGE/assets/121243595/1cb82eaf-bc91-46e1-8946-875e629dcb85)
+![image](https://github.com/RagulRM/COLOR_CONVERSIONS_OF-IMAGE/assets/121609342/191e19bf-acf1-47cf-8adf-06a9e75213fc)
+
 
 ### ii)Write the image
     import cv2
