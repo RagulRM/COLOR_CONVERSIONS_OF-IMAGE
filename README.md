@@ -139,28 +139,26 @@ cv2.destroyAllWindows()
 
 
 ### vii) HSV to RGB and BGR
-import cv2
-img = cv2.imread('pic.jpg')
-img = cv2.resize(img,(200,200))
-
-img = cv2.cvtColor(img,cv2.COLOR_BGR2HSV)
+```
+img = cv2.imread('Ragul.png') 
+img = cv2.cvtColor(img,cv2.COLOR_BGR2HSV) 
 cv2.imshow('Original HSV Image',img)
-
-RGB = cv2.cvtColor(img,cv2.COLOR_HSV2RGB)
+RGB = cv2.cvtColor(img,cv2.COLOR_HSV2RGB) 
 cv2.imshow('2HSV2BGR',RGB)
-
-BGR = cv2.cvtColor(img,cv2.COLOR_HSV2BGR)
+BGR = cv2.cvtColor(img,cv2.COLOR_HSV2BGR) 
 cv2.imshow('HSV2RGB',BGR)
-
-cv2.waitKey(0)
+cv2.waitKey(0) 
 cv2.destroyAllWindows()
+```
 <br>
 
-![image](https://github.com/ShanmathiShanmugam/COLOR_CONVERSIONS_OF-IMAGE/assets/121243595/d9655ba9-2f09-426a-b2b0-1c36992ec5ea)
+![image](https://github.com/RagulRM/COLOR_CONVERSIONS_OF-IMAGE/assets/121609342/be6a0c69-9406-4d59-87fe-7ba5b3afa453)
+
 
 <br>
 
-![image](https://github.com/ShanmathiShanmugam/COLOR_CONVERSIONS_OF-IMAGE/assets/121243595/dfe21177-1327-45e8-a645-d30facc52af2)
+![image](https://github.com/RagulRM/COLOR_CONVERSIONS_OF-IMAGE/assets/121609342/03020076-cb93-4ff3-b185-da44a10a428d)
+
 
 ### viii) RGB and BGR to YCrCb
 import cv2
