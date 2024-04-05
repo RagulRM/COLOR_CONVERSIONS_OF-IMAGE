@@ -112,25 +112,20 @@ cv2.destroyAllWindows()
 
 
 ### vi) BGR and RGB to HSV and GRAY
-import cv2
-img = cv2.imread('pic.jpg',1)
-img = cv2.resize(img,(200,200))
+```
+img = cv2.imread('Ragul.png',1) 
 cv2.imshow('Original Image',img)
-
-hsv1 = cv2.cvtColor(img,cv2.COLOR_BGR2HSV)
+hsv1 = cv2.cvtColor(img,cv2.COLOR_BGR2HSV) 
 cv2.imshow('BGR2HSV',hsv1)
-
-hsv2 = cv2.cvtColor(img,cv2.COLOR_RGB2HSV)
+hsv2 = cv2.cvtColor(img,cv2.COLOR_RGB2HSV) 
 cv2.imshow('RGB2HSV',hsv2)
-
-gray1 = cv2.cvtColor(img,cv2.COLOR_BGR2GRAY)
+gray1 = cv2.cvtColor(img,cv2.COLOR_BGR2GRAY) 
 cv2.imshow('BGR2GRAY',gray1)
-
-gray2 = cv2.cvtColor(img,cv2.COLOR_RGB2GRAY)
+gray2 = cv2.cvtColor(img,cv2.COLOR_RGB2GRAY) 
 cv2.imshow('RGB2GRAY',gray2)
-
-cv2.waitKey(0)
+cv2.waitKey(0) 
 cv2.destroyAllWindows()
+```
 <br>
 
 ![image](https://github.com/ShanmathiShanmugam/COLOR_CONVERSIONS_OF-IMAGE/assets/121243595/ebe8040b-3508-4780-bf76-435259a0a8eb)
