@@ -161,48 +161,45 @@ cv2.destroyAllWindows()
 
 
 ### viii) RGB and BGR to YCrCb
-import cv2
-img = cv2.imread('pic.jpg')
-img = cv2.resize(img,(200,200))
+```
+img = cv2.imread('Ragul.png') 
 cv2.imshow('Original RGB Image',img)
-
-YCrCb1 = cv2.cvtColor(img, cv2.COLOR_BGR2YCrCb)
+YCrCb1 = cv2.cvtColor(img, cv2.COLOR_BGR2YCrCb) 
 cv2.imshow('RGB-2-YCrCb',YCrCb1)
-
-YCrCb2 = cv2.cvtColor(img, cv2.COLOR_RGB2YCrCb)
+YCrCb2 = cv2.cvtColor(img, cv2.COLOR_RGB2YCrCb) 
 cv2.imshow('BGR-2-YCrCb',YCrCb2)
-
-cv2.waitKey(0)
+cv2.waitKey(0) 
 cv2.destroyAllWindows()
+```
+
+![image](https://github.com/RagulRM/COLOR_CONVERSIONS_OF-IMAGE/assets/121609342/70c6e450-f110-4dfb-99dc-cd7affc01600)
+
 <br>
 
+![image](https://github.com/RagulRM/COLOR_CONVERSIONS_OF-IMAGE/assets/121609342/efa1d3c9-37ae-4af8-acb0-1f251ebb2c90)
 
-<br>
-
-![image](https://github.com/ShanmathiShanmugam/COLOR_CONVERSIONS_OF-IMAGE/assets/121243595/a4f0f7de-5ea2-4741-8f23-7f2a8cc0b0f1)
 
 ### ix) Split and merge RGB Image
 <br>
-import cv2
-img = cv2.imread('pic.jpg',1)
-img = cv2.resize(img,(200,200))
-
-R = img[:,:,2]
-G = img[:,:,1]
+```
+img = cv2.imread('Ragul.png',1) 
+R = img[:,:,2] 
+G = img[:,:,1] 
 B = img[:,:,0]
-
-cv2.imshow('R-Channel',R)
-cv2.imshow('G-Channel',G)
+cv2.imshow('R-Channel',R) 
+cv2.imshow('G-Channel',G) 
 cv2.imshow('B-Channel',B)
-
-merged = cv2.merge((B,G,R))
+merged = cv2.merge((B,G,R)) 
 cv2.imshow('Merged RGB image',merged)
-
-cv2.waitKey(0)
+cv2.waitKey(0) 
 cv2.destroyAllWindows()
+```
 <br>
+![image](https://github.com/RagulRM/COLOR_CONVERSIONS_OF-IMAGE/assets/121609342/9ddeaa61-cb23-49b8-9504-54a4da7dbec5)
 
-![image](https://github.com/ShanmathiShanmugam/COLOR_CONVERSIONS_OF-IMAGE/assets/121243595/69a9f715-3f49-4477-8bfc-09d308a0ed77)
+
+![image](https://github.com/RagulRM/COLOR_CONVERSIONS_OF-IMAGE/assets/121609342/2480a46d-4484-4e16-be15-7f4ac13c1f44)
+
 
 ### x) Split and merge HSV Image
 <br>
