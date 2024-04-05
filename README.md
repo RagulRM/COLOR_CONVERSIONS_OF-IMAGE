@@ -88,31 +88,27 @@ cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
 
-![image](https://github.com/RagulRM/COLOR_CONVERSIONS_OF-IMAGE/assets/121609342/dc12ed8d-ee84-4e7e-94ef-511bd237a029)
-
-
-<br>
+![image](https://github.com/RagulRM/COLOR_CONVERSIONS_OF-IMAGE/assets/121609342/37df1b38-af23-4486-8836-1a6344c3b6ca)
 
 ![image](https://github.com/RagulRM/COLOR_CONVERSIONS_OF-IMAGE/assets/121609342/97e499ee-7c84-483d-a767-0a3646599495)
 
-
-
 ### v)Cut and paste portion of image
-import cv2
-image=cv2.imread('pic.jpg',1)
-image=cv2.resize(image,(300,300))
-tag =image[150:200,110:160]
-image[110:160,150:200] = tag
-cv2.imshow('image1',image)
-cv2.waitKey(0)
+```
+image=cv2.imread('Ragul.png',1) 
+image=cv2.resize(image,(300,300)) 
+tag =image[150:200,110:160] 
+image[110:160,150:200] = tag 
+cv2.imshow('image1',image) 
+cv2.waitKey(0) 
 cv2.destroyAllWindows()
+```
+
+![image](https://github.com/RagulRM/COLOR_CONVERSIONS_OF-IMAGE/assets/121609342/934f9e37-20bb-47eb-8310-f7a39311883d)
+
 <br>
 
-![image](https://github.com/ShanmathiShanmugam/COLOR_CONVERSIONS_OF-IMAGE/assets/121243595/2375c15e-588b-462b-bb71-e1715c3ebe7e)
+![image](https://github.com/RagulRM/COLOR_CONVERSIONS_OF-IMAGE/assets/121609342/f443d93a-7ca8-4cf4-8ea0-519fbf9dca1b)
 
-<br>
-
-![image](https://github.com/ShanmathiShanmugam/COLOR_CONVERSIONS_OF-IMAGE/assets/121243595/ce4ed0c8-b48a-489c-b096-91ec50cc020c)
 
 
 ### vi) BGR and RGB to HSV and GRAY
