@@ -150,12 +150,10 @@ cv2.imshow('HSV2RGB',BGR)
 cv2.waitKey(0) 
 cv2.destroyAllWindows()
 ```
-<br>
 
 ![image](https://github.com/RagulRM/COLOR_CONVERSIONS_OF-IMAGE/assets/121609342/be6a0c69-9406-4d59-87fe-7ba5b3afa453)
 
 
-<br>
 
 ![image](https://github.com/RagulRM/COLOR_CONVERSIONS_OF-IMAGE/assets/121609342/03020076-cb93-4ff3-b185-da44a10a428d)
 
@@ -174,13 +172,11 @@ cv2.destroyAllWindows()
 
 ![image](https://github.com/RagulRM/COLOR_CONVERSIONS_OF-IMAGE/assets/121609342/70c6e450-f110-4dfb-99dc-cd7affc01600)
 
-<br>
 
 ![image](https://github.com/RagulRM/COLOR_CONVERSIONS_OF-IMAGE/assets/121609342/efa1d3c9-37ae-4af8-acb0-1f251ebb2c90)
 
 
 ### ix) Split and merge RGB Image
-<br>
 ```
 img = cv2.imread('Ragul.png',1) 
 R = img[:,:,2] 
@@ -194,7 +190,7 @@ cv2.imshow('Merged RGB image',merged)
 cv2.waitKey(0) 
 cv2.destroyAllWindows()
 ```
-<br>
+
 ![image](https://github.com/RagulRM/COLOR_CONVERSIONS_OF-IMAGE/assets/121609342/9ddeaa61-cb23-49b8-9504-54a4da7dbec5)
 
 
@@ -202,7 +198,6 @@ cv2.destroyAllWindows()
 
 
 ### x) Split and merge HSV Image
-<br>
 ```
 img = cv2.imread("Ragul.png",1) 
 img = cv2.resize(img,(300,300)) 
@@ -216,7 +211,6 @@ cv2.imshow('Merged',merged)
 cv2.waitKey(0) 
 cv2.destroyAllWindows()
 ```
-<br>
 ![image](https://github.com/RagulRM/COLOR_CONVERSIONS_OF-IMAGE/assets/121609342/c37a0051-de81-4b09-83ef-7b34b74ba200)
 
 
