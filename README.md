@@ -203,25 +203,25 @@ cv2.destroyAllWindows()
 
 ### x) Split and merge HSV Image
 <br>
-import cv2
-img = cv2.imread("pic.jpg",1)
-img = cv2.resize(img,(200,200))
+```
+img = cv2.imread("Ragul.png",1) 
+img = cv2.resize(img,(300,300)) 
 img=cv2.cvtColor(img,cv2.COLOR_RGB2HSV)
-
 H,S,V=cv2.split(img)
-
-cv2.imshow('Hue',H)
-cv2.imshow('Saturation',S)
+cv2.imshow('Hue',H) 
+cv2.imshow('Saturation',S) 
 cv2.imshow('Value',V)
-
-merged = cv2.merge((H,S,V))
+merged = cv2.merge((H,S,V)) 
 cv2.imshow('Merged',merged)
-
-cv2.waitKey(0)
+cv2.waitKey(0) 
 cv2.destroyAllWindows()
+```
 <br>
+![image](https://github.com/RagulRM/COLOR_CONVERSIONS_OF-IMAGE/assets/121609342/c37a0051-de81-4b09-83ef-7b34b74ba200)
 
-![image](https://github.com/ShanmathiShanmugam/COLOR_CONVERSIONS_OF-IMAGE/assets/121243595/b9951810-1160-4cd2-b252-be17542f7251)
+
+![image](https://github.com/RagulRM/COLOR_CONVERSIONS_OF-IMAGE/assets/121609342/e89e3c8f-8efc-41ab-80d1-1d5b5bc11107)
+
 
 
 ## Result:
