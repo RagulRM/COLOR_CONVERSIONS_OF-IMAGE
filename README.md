@@ -75,25 +75,26 @@ print(image.shape)
 ![image](https://github.com/RagulRM/COLOR_CONVERSIONS_OF-IMAGE/assets/121609342/78386427-e5a7-4e41-8868-4ea1f943e840)
 
 ### iv)Access rows and columns
-    import random
-    import cv2
-    image=cv2.imread('pic.jpg',1)
-    image=cv2.resize(image,(500,500))
-    for i in range (250,500):
-      for j in range(image.shape[1]):
-          image[i][j]=[random.randint(0,255),
-                       random.randint(0,255),
-                       random.randint(0,255)] 
-    cv2.imshow('part image',image)
-    cv2.waitKey(0)
-    cv2.destroyAllWindows()
+```
+import random
+image=cv2.imread('Ragul.png',1)
+for i in range (150,250):
+    for j in range(image.shape[1]):
+        image[i][j]=[random.randint(0,255),
+                     random.randint(0,255),
+                     random.randint(0,255)] 
+cv2.imshow('part image',image)
+cv2.waitKey(0)
+cv2.destroyAllWindows()
+```
+
+![image](https://github.com/RagulRM/COLOR_CONVERSIONS_OF-IMAGE/assets/121609342/dc12ed8d-ee84-4e7e-94ef-511bd237a029)
+
+
 <br>
 
-![image](https://github.com/ShanmathiShanmugam/COLOR_CONVERSIONS_OF-IMAGE/assets/121243595/1777a217-e5ee-4525-9025-352de38bb3b0)
+![image](https://github.com/RagulRM/COLOR_CONVERSIONS_OF-IMAGE/assets/121609342/97e499ee-7c84-483d-a767-0a3646599495)
 
-<br>
-
-![image](https://github.com/ShanmathiShanmugam/COLOR_CONVERSIONS_OF-IMAGE/assets/121243595/a5b0aca1-4a21-4fbd-85ce-fb8f3ed0fe5f)
 
 
 ### v)Cut and paste portion of image
