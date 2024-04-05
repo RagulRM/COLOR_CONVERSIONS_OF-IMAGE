@@ -114,6 +114,7 @@ cv2.destroyAllWindows()
 ### vi) BGR and RGB to HSV and GRAY
 ```
 img = cv2.imread('Ragul.png',1) 
+img = cv2.resize(img,(300,300))
 cv2.imshow('Original Image',img)
 hsv1 = cv2.cvtColor(img,cv2.COLOR_BGR2HSV) 
 cv2.imshow('BGR2HSV',hsv1)
@@ -128,7 +129,8 @@ cv2.destroyAllWindows()
 ```
 <br>
 
-![image](https://github.com/ShanmathiShanmugam/COLOR_CONVERSIONS_OF-IMAGE/assets/121243595/ebe8040b-3508-4780-bf76-435259a0a8eb)
+![image](https://github.com/RagulRM/COLOR_CONVERSIONS_OF-IMAGE/assets/121609342/772766e5-f926-4336-bf35-a97439c77bae)
+
 
 <br>
 
