@@ -43,12 +43,13 @@ Split and merge HSV Image
 ## Output:
 
 ### i) Read and display the image
+```
 import cv2
 img = cv2.imread('Ragul.png', 1)
 cv2.imshow('Image',img)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
-<br>
+```
 
 ![Screenshot 2024-02-28 230134](https://github.com/ShanmathiShanmugam/COLOR_CONVERSIONS_OF-IMAGE/assets/121243595/87273d17-934d-40be-baa9-ad2a94bc26e1)
 
