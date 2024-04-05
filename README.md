@@ -51,7 +51,8 @@ cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
 
-![Screenshot 2024-02-28 230134](https://github.com/ShanmathiShanmugam/COLOR_CONVERSIONS_OF-IMAGE/assets/121243595/87273d17-934d-40be-baa9-ad2a94bc26e1)
+![image](https://github.com/RagulRM/COLOR_CONVERSIONS_OF-IMAGE/assets/121609342/e489320c-c867-4d0f-a575-f9f783f9dcc0)
+
 
 
 ![image](https://github.com/ShanmathiShanmugam/COLOR_CONVERSIONS_OF-IMAGE/assets/121243595/1cb82eaf-bc91-46e1-8946-875e629dcb85)
