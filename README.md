@@ -59,24 +59,20 @@ cv2.destroyAllWindows()
 
 
 ### ii)Write the image
-    import cv2
-    img=cv2.imread('pic.jpg',0)
-    cv2.imwrite('demos.jpg',img)
-<br>
+```
+img=cv2.imread('Ragul.png',0)
+cv2.imwrite('demos.png',img)
+```
+![image](https://github.com/RagulRM/COLOR_CONVERSIONS_OF-IMAGE/assets/121609342/3cedbec4-683c-48c5-b18f-ce7b842adfad)
 
-![image](https://github.com/ShanmathiShanmugam/COLOR_CONVERSIONS_OF-IMAGE/assets/121243595/1b74f853-a027-49b1-b150-f59328fb29ce)
-
-<br>
 
 ### iii)Shape of the Image
-    import cv2
-    image=cv2.imread('pic.jpg',1)
-    print(image.shape)
-<br>
+```
+image=cv2.imread('Ragul.png',1)
+print(image.shape)
+```
 
-![image](https://github.com/ShanmathiShanmugam/COLOR_CONVERSIONS_OF-IMAGE/assets/121243595/df551d8f-5684-42bd-9231-d1edabee81a8)
-
-<br>
+![image](https://github.com/RagulRM/COLOR_CONVERSIONS_OF-IMAGE/assets/121609342/78386427-e5a7-4e41-8868-4ea1f943e840)
 
 ### iv)Access rows and columns
     import random
